@@ -8,6 +8,7 @@ package com.slgerkamp.javapuzzlerstrapspitfallsandcornercases;
  */
 public class Oddity {
     public static boolean isOdd( int i ){
-    	return i % 2 == 1;
+    	// 値を絶対値にする
+    	return Math.abs(i) % 2 == 1;
     }
 }
